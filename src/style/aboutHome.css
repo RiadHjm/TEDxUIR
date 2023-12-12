@@ -1,0 +1,9 @@
+.hover-text-black:hover h1 
+{
+    color: black;
+}
+
+.hover-text-red:hover h1 span
+{
+    color: #E63513;
+}

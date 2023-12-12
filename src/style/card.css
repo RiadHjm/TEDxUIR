@@ -1,0 +1,9 @@
+/* card.css */
+.hover-text-black:hover h5 {
+    color: black;
+}
+
+.hover-text-red:hover p
+{
+    color: #E63513;
+}
