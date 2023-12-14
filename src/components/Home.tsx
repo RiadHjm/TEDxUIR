@@ -14,15 +14,15 @@ const Home = () => {
         <img src={homePic} alt="Home Picture" className='w-[70vh] '/>
         <div className='flex flex-col justify-center items-center gap-7'>
           <h1 className='text-center text-4xl font-semibold'>Embark on a Journey of Inspiration: Unveiling the Latest Talks and Insights from <span className='font-extrabold text-redLogo m-0'>TEDx</span>UIR</h1>
-          <p className='text-justify text-lg'> Immerse yourself in a world of ideas and innovation as we invite you to explore the captivating realm of TEDxUIR. 
+          <p className='text-justify text-lg'> Immerse yourself in a world of ideas and innovation as we invite you to explore the captivating realm of <span className='font-extrabold text-redLogo m-0'>TEDx</span>UIR. 
             Our latest talks are a treasure trove of thought-provoking discussions, delivered by brilliant minds from diverse 
             fields. From cutting-edge technology to groundbreaking social initiatives, these talks promise to ignite your 
-            curiosity and spark new perspectives. But that's not all – delve deeper into the TEDxUIR experience by reading our 
+            curiosity and spark new perspectives. But that's not all – delve deeper into the <span className='font-extrabold text-redLogo m-0'>TEDx</span>UIR experience by reading our 
             recent posts. Uncover the behind-the-scenes stories, discover the passionate individuals shaping these transformative 
             discussions, and gain a deeper understanding of the impactful ideas that have graced our stage.
             Ready to be inspired? Join us on this intellectual adventure, where every talk is a journey, and every post is a 
-            window into the dynamic world of TEDxUIR. Whether you're a seasoned TEDx enthusiast or a newcomer eager to explore 
-            fresh ideas, there's something for everyone in the vibrant landscape of TEDxUIR.
+            window into the dynamic world of <span className='font-extrabold text-redLogo m-0'>TEDx</span>UIR. Whether you're a seasoned <span className='font-extrabold text-redLogo m-0'>TEDx</span> enthusiast or a newcomer eager to explore 
+            fresh ideas, there's something for everyone in the vibrant landscape of <span className='font-extrabold text-redLogo m-0'>TEDx</span>UIR.
           </p>
         </div>
       </div>
