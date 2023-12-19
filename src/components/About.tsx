@@ -34,7 +34,7 @@ const About = () => {
         <div className='flex flex-col justify-center items-center gap-8'>
           <h1 className='text-4xl'>About <span className='font-extrabold text-redLogo m-0'>TEDx</span></h1>
           <p className='text-justify'>
-          <span className='font-extrabold text-black m-0'>x = independently organized event</span> <br />
+          <span className='font-extrabold text-redLogo m-0'>x = independently organized event</span> <br />
             In the spirit of ideas worth spreading, TEDx is a program of local, self-organized events that bring people together 
             to share a TED-like experience. At a TEDx event, TEDTalks video and live speakers combine to spark deep discussion 
             and connection in a small group. These local, self-organized events are branded TEDx, where 
@@ -46,7 +46,7 @@ const About = () => {
 
       <div className='flex justify-center items-center mr-11 ml-11 mt-[-10px] gap-14'>
         <div className='flex flex-col justify-center items-center gap-8'>
-          <h1 className='text-4xl'>About <span className='font-extrabold text-black m-0'>TEDx</span>UIR</h1>
+          <h1 className='text-4xl'>About <span className='font-extrabold text-redLogo m-0'>TEDx</span>UIR</h1>
           <p className='text-justify'>
             The stimulating platform of TEDxUIR is where many viewpoints come together and connect in novel and creative ways. 
             A dozen presenters will have eighteen minutes apiece to offer the talk of their life at this captivating event. 
