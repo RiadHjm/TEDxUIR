@@ -3,7 +3,7 @@ import volounteer from '../assets/volounteer.png'
 
 const Volounteer = () => {
   return (
-    <div className='flex justify-center items-center m-11 gap-14 h-[100vh]'>
+    <div className='flex flex-col lg:flex-row justify-center items-center m-11 gap-14 h-[100vh]'>
         <div className='flex flex-col justify-center items-center gap-8'>
           <h1 className='text-4xl'>Voloun<span className='font-extrabold text-redLogo m-0'>teer</span></h1>
           <h2 className='text-2xl text-center font-bold'>We are looking for talented people to join our team of enthusiastic and hard working organizers.</h2>

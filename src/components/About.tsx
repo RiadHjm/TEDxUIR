@@ -6,7 +6,7 @@ import tedxuirAbout from '../assets/aboutTedxUir.png'
 const About = () => {
   return (
     <div className='flex flex-col justify-center items-center mt-20 relative'>
-      <div className='flex justify-center items-center m-11 gap-14'>
+      <div className='flex flex-col lg:flex-row justify-center items-center m-11 gap-14'>
         <div className='flex flex-col justify-center items-center gap-8'>
           <h1 className='text-4xl'>About <span className='font-extrabold text-redLogo m-0'>TED</span></h1>
           <p className='text-justify'>
@@ -29,7 +29,7 @@ const About = () => {
         <img src={tedAbout} alt="TED About" className='w-[80vh]' />
       </div>
 
-      <div className='flex justify-center items-center m-11 gap-14 mt-[-10px]'>
+      <div className='flex bg-gray-100 w-full p-4 flex-col lg:flex-row justify-center items-center m-11 gap-14 mt-[-10px]'>
         <img src={tedxAbout} alt="TED About" className='w-[80vh]' />
         <div className='flex flex-col justify-center items-center gap-8'>
           <h1 className='text-4xl'>About <span className='font-extrabold text-redLogo m-0'>TEDx</span></h1>
@@ -44,7 +44,7 @@ const About = () => {
         </div>
       </div>
 
-      <div className='flex justify-center items-center mr-11 ml-11 mt-[-10px] gap-14'>
+      <div className='flex flex-col lg:flex-row justify-center items-center mr-11 ml-11 mt-[-10px] gap-14'>
         <div className='flex flex-col justify-center items-center gap-8'>
           <h1 className='text-4xl'>About <span className='font-extrabold text-redLogo m-0'>TEDx</span>UIR</h1>
           <p className='text-justify'>
